@@ -1,0 +1,5 @@
+import pandas as pd
+data=pd.read_csv("/content/drive/MyDrive/ml/dataset_austin.csv")
+df=pd.DataFrame(data)
+df.head()
+df.to_csv("Explored.csv")
